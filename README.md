@@ -1,3 +1,3 @@
 # typing-app
 
-Vous pouvez lire les commentaires savoir comment le code fonctionne.
+Vous pouvez lire les commentaires pour savoir comment le code fonctionne.
