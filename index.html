@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <main>
-        <h2>Typing App</h2>
-        <div id="mot">ORDINATEUR</div>
-        <form action="">
-            <input type="text" id="reponse">
-            <div id="bottom">
-                <div id="score">Score: <span>0</span></div>
-                <input type="submit" value="Valider">
-            </div>
-        </form>
-    </main>
-    <script src="main.js"></script>
-</body>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Typing App</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <main>
+            <h2>Typing App</h2>
+
+            <!-- Le mot à taper -->
+            <div id="mot">...</div>
+
+            <!-- Le formulaire -->
+            <form action="">
+                <input type="text" id="reponse">
+                <div id="bottom">
+                    <!-- Le score de l'utilisateur -->
+                    <div id="score">Score: <span>0</span></div>
+                    <input type="submit" value="Valider">
+                </div>
+            </form>
+        </main>
+
+        <!-- Laisser le script à la fin du document -->
+        <script src="main.js" defer></script>
+    </body>
 </html>

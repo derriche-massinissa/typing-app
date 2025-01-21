@@ -13,7 +13,6 @@ main {
 }
 
 h2 {
-    font-family: sans-serif;
     color: white;
     text-align: center;
     font-size: 2rem;
@@ -48,6 +47,7 @@ form > input {
     text-align: center;
 }
 
+/* Affichage 'flex' pour afficher le score et le bouton horizontalement */
 #bottom {
     display: flex;
     flex-flow: row nowrap;
@@ -55,6 +55,5 @@ form > input {
 }
 
 #score {
-    font-family: sans-serif;
     font-size: 1.4rem;
 }
